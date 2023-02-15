@@ -1,0 +1,35 @@
+/*scroll*/
+::-webkit-scrollbar-button {
+    background-color: var(--color-negro);
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    background-color: var(--color-negro);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background: linear-gradient(30deg,  var(--color-verdeAlien),var(--color-verde1));
+}
+::-webkit-scrollbar:horizontal{
+display: none;
+}
+
+
+@media screen and (max-width:858px) {
+
+/*quitamos el scroll para mobiles*/
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+}

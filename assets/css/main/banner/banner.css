@@ -1,0 +1,99 @@
+ /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../../img/wallpaperbetter.com_2560x1440.jpg");*/
+.banner{
+  
+background: url(../../../img/banner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position:50% 100%;
+
+
+
+}
+.title__container{
+    color: var(--color-blanco);
+}
+.title__bio{
+    font-size: 32px;
+    white-space: pre-line;
+}
+.title__span{
+    color: var(--color-verdeAlien);
+}
+.title__subsection{
+    font-size: 18px;
+    white-space:pre-line;
+}
+.title__spanOracle{
+    color: var(--color-naranja9);
+}
+
+.title__div{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.title__network{
+    display: flex;
+    padding-top: 2rem;
+}
+.title__network__item{
+    padding-right: 1rem;
+}
+.title__link:hover{
+    text-decoration: underline;
+}
+.title__profile{
+
+ width: 250px;
+ height: 250px;
+}
+/*tablet*/
+@media screen and (max-width:952px) {
+
+}
+/*movil*/
+@media screen and (max-width:858px) {
+.banner{
+background:none;
+background-color: black;
+}
+.title__div{
+flex-direction: column-reverse;
+
+}
+
+.title__bio{
+    font-size: 25px;
+    text-align: center;
+}
+.title__subsection{
+margin-top: 5px;
+padding: 0 10px 0 10px;
+text-align: center;
+white-space:normal;
+font-size: 16px;
+}
+.title__profile{
+    padding-top: 8px;
+    width: 150px;
+    height: 150px;
+    /*align-self: flex-start;*/
+    }
+.title__network{
+   justify-content: center;
+   padding-bottom: 10px;
+  
+}
+
+
+}
+/* para scroll
+@media screen and (max-width:858px) and (orientation:landscape) {
+
+    .menu__lista {
+        overflow: scroll;
+        height: calc(100% - 24vh);
+    }
+
+}*/

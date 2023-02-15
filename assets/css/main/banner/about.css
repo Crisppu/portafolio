@@ -1,0 +1,35 @@
+
+.about{
+    display: flex;
+    justify-content: center;
+   
+}
+.sobreMi__container{
+width: 77%;
+padding-top: 1rem;
+}
+.sobreMi__title{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--font-family-body);
+    }
+.sobreMi__paragraph{
+        font-family: var(--font-family-body);
+        padding: 8px 0 5px 0;
+        white-space:pre-line;
+}
+
+/*tablet*/
+@media screen and (max-width:952px) {
+
+}
+/*movil*/
+@media screen and (max-width:858px) {
+
+    .sobreMi__paragraph{
+    white-space:normal;
+    text-align: justify;
+    }
+
+
+}

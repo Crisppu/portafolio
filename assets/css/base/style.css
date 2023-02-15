@@ -1,0 +1,101 @@
+@import url(./reset.css);
+@import url(./variables.css);
+@import url(./scroll/scroll.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sección Title*/
+
+/*section.title {}*/
+
+/*Sección About*/
+
+/*section.about {}*/
+
+/*Sección Hobbies*/
+
+/*section.hobbies {}*/
+
+/* Experiencia Académica*/
+
+/*section.academic {}*/
+
+/* experiencia*/
+
+/*section.experience {}*/
+
+/*Contacto*/
+
+/*section.formContacto {}*/
+
+/*footer*/
+
+/*section.footer {}*/
+
+/* Vamos a desafiarnos trabajando con responsivas?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /* Menú */
+
+    /*title*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sección sobre mi*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+    /*Contacto*/
+
+    /*Footer*/
+
+}

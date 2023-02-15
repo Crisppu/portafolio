@@ -1,0 +1,10 @@
+
+@import url(./main/banner/banner.css);
+@import url(./main/banner/about.css);
+@import url(./main/banner/main.css);
+.main__contenedor{
+    display: flex;
+    flex-direction: column;
+   /* height: calc(100vh - 30vh);*/
+    width: 100vw;
+}

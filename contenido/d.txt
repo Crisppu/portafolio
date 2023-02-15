@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./assets/css/base/style.css">
+    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+
+
+
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1bb2f5c0e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <div class="tudo">
+        <header class="cabecera">
+<section class="menu__header">
+                <img class="menu__logo" src="./assets/img/icons8-charmander-100.png" data-pokemon>
+                <h3 class="menu__title">Cristobal YaT</h3>
+            </section>
+            <nav class="menu__nav">
+                <ul class="menu__lista">
+                    <li class="menu__lista__item activo"><a class="menu__link activo" href="#sobre-mi">[ Sobre mi ]</a></li>
+                    <li class="menu__lista__item"><a class="menu__link" href="#skills">Skills</a></li>
+                    <li class="menu__lista__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+                    <li class="menu__lista__item"><a class="menu__link" href="#formacion">Formación</a></li>
+                    <li class="menu__lista__item"><a class="menu__link" href="#xp">Proyectos</a></li>
+                    <li class="menu__lista__item"><a class="menu__link" href="#contacto">Contacto@fulana.com</a></li>
+                </ul>
+            </nav>
+            <span class="menu__bars" data-bars><i class="fa-solid fa-bars"></i></i></span>
+        </header>
+
+
+       
+    <!-- Script del documento JavaScript -->
+    <script src="./js/codiPokemon.js"></script>
+</body>
+
+</html>

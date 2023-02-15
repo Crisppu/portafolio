@@ -1,0 +1,17 @@
+
+@import url(./header/menuNav/menu__header.css);
+.cabecera__contenedor{
+    background-color: var(--color-negro);
+   width: 100vw;
+}
+/*
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/nasa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: var(30vh - 100vh);
+    
+
+}
+*/

@@ -1,0 +1,82 @@
+:root{
+    /*colores del reto*/
+   --color-blanco1:white;
+   --cor-de-link: #acaaaa;
+   --color-texto-nav-a:#812121;
+
+
+/*https://www.veronicasolomon.com/*/
+/*mio*/
+--color-blanco:#ffffff;
+--color-f0:#03071E;
+--color-negro:#000000;
+
+--color-naranja2:#FF4800;
+--color-naranja3:#FF5400;
+--color-naranja4:#FF6000;
+--color-naranja5:#FF6D00;
+--color-naranja6:#FF7900;
+--color-naranja7:#FF8500;
+--color-naranja8:#FF9100;
+--color-naranja9:#FF9E00;
+--color-naranja10:#FFAA00;
+--color-naranja11:#FFAA00;
+--color-naranja12:#FFAA00;
+--color-naranja13:#fcbc5d;
+--color-naranja14:#e6ded8;
+
+--color-rojo1:#E60012;
+--color-rojo2:#c32530;
+--color-rojo3:#ab2836;
+--color-rojo4:#942b3b;
+--color-rojo5:#7c2e41;
+--color-rojo6:#7c2e41;
+--color-rojo7:#643047;
+--color-rojo8:#4c334d;
+--color-rojo9:#1d3958;
+--color-rojo10:#053c5e;
+
+--color-azul1:#246CFF;
+--color-azul2:#1c558e;
+--color-azul3:#1a5b92;
+--color-azul4:#16679a;
+--color-azul5:#0f80aa;
+--color-azul6:#0899ba;
+--color-azul7:#04a6c2;
+--color-azul8:#00b2ca;
+--color-azul9:#20bac5;
+--color-azul10:#3fc1c0;
+--color-bandera:#93C5E1;
+
+--color-verde1:#004b23;
+--color-verde2:#006400;
+--color-verde3:#007200;
+--color-verde4:#008000;
+--color-verde5:#38b000;
+--color-verde6:#70e000;
+--color-verde7:#70e000;
+--color-verde8:#9ef01a;
+--color-verde10:#abff4f;
+--color-verde9:#ccff33;
+--color-verdeAlien:#65CC65;
+
+--color-amarillo0:#fcf4e9;
+--color-amarillo1:#fff75e;
+--color-amarillo2:#fff056;
+--color-amarillo3:#ffe94e;
+--color-amarillo4:#ffe246;
+--color-amarillo5:#ffda3d;
+--color-amarillo6:#ffd53e;
+--color-amarillo7:#fdc43f;
+--color-amarillo8:#fdbe39;
+--color-amarillo9:#fdbe39;
+--color-amarillo10:#fdb833;
+
+
+--font-family-body: "Montserrat",cursive;
+--font-family-letra: "Pacifico", cursive;
+--font-family-iniciales: 'Zen Dots', cursive;
+--font-family-nav: 'Zen Dots', cursive;
+
+
+}
