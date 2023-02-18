@@ -1,7 +1,6 @@
 const $form = document.querySelector('[data-form]');
 console.log($form);
-const $botonMailto = document.querySelector('[data-mailto]');
-console.log($botonMailto);
+
 
 $form.addEventListener("submit", function ejecutarSiHayUnSubmit(evento) {
   evento.preventDefault();
@@ -13,8 +12,17 @@ $form.addEventListener("submit", function ejecutarSiHayUnSubmit(evento) {
   const mensajeIngresado = from.get('mensaje');
   console.log(nombreIngresado);
 
-  $botonMailto.setAttribute('href',`mailto:${correoIngresado}?subject=${asuntoIngresado}&body=${mensajeIngresado}`);
-  $botonMailto.click();
-  $form.reset();
-  
+  const nuevaEtiquetaA = document.createElement("a");
+  nuevaEtiquetaA.classList.add("a11");
+  nuevaEtiquetaA.style = "color: red";
+  //nuevaEtiquetaA.textContent = "url-Mailto";
+  document.querySelector(".formcontacto__formulario").appendChild( nuevaEtiquetaA);
+const $botonMailto1 = document.querySelector('.a11');
+$botonMailto1.setAttribute('href',`mailto:${correoIngresado}?subject=${asuntoIngresado}&body=${mensajeIngresado}`);
+$botonMailto1.setAttribute('data-mailto','correo');
+$botonMailto1.click();
+$form.reset();
+
 });
+
+
