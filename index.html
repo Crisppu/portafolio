@@ -347,14 +347,15 @@
                             <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
                             <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto con
                                 usted lo antes posible. </h3></div>
-                            <form class="formcontacto__form" name="form">
-                                <input class="formcontacto__input" type="text" name="nombre" placeholder="Nombre">
-                                <input class="formcontacto__input" type="email" name="email" placeholder="E-mail">
-                                <input class="formcontacto__input" type="text" name="asunto" placeholder="Asunto">
+                            <form class="formcontacto__form" name="form" data-form>
+                                <input class="formcontacto__input" type="text" name="nombre" placeholder="Nombre" required data-nombreF>
+                                <input class="formcontacto__input" type="email" name="email" placeholder="E-mail" required>
+                                <input class="formcontacto__input" type="text" name="asunto" placeholder="Asunto" required>
                                 <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
                                     placeholder="Mensaje"></textarea>
                                 <button type="submit" class="formcontacto__boton">Enviar mensaje</button>
                             </form>
+                            <a href="" data-mailto>mail</a>
                         </div>
                     </div>
                 </section>
@@ -371,6 +372,7 @@
         </div>
         <!-- Script del documento JavaScript -->
         <script src="./js/iconoNav.js"></script>
+        <script src="./js/formularioContacto.js"></script>
     </body>
 
 </html>
