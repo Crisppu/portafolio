@@ -140,7 +140,10 @@ height: 400px;
 
 
 }
+.boton__mailto{
+    opacity: 0;
 
+}
 
 .formcontacto__input, .formcontacto__textarea{
     padding: 10px;
