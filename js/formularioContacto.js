@@ -13,13 +13,15 @@ $form.addEventListener("submit", function ejecutarSiHayUnSubmit(evento) {
   console.log(nombreIngresado);
 
   const nuevaEtiquetaA = document.createElement("a");
-  nuevaEtiquetaA.classList.add("a11");
-  nuevaEtiquetaA.style = "color: red";
+  //nuevaEtiquetaA.classList.add("a11");
   //nuevaEtiquetaA.textContent = "url-Mailto";
+ //nuevaEtiquetaA.style = "color: red";
+  nuevaEtiquetaA.setAttribute("class","a11");
+  nuevaEtiquetaA.setAttribute('data-mailto','correo');
   document.querySelector(".formcontacto__formulario").appendChild( nuevaEtiquetaA);
 const $botonMailto1 = document.querySelector('.a11');
 $botonMailto1.setAttribute('href',`mailto:${correoIngresado}?subject=${asuntoIngresado}&body=${mensajeIngresado}`);
-$botonMailto1.setAttribute('data-mailto','correo');
+//$botonMailto1.setAttribute('data-mailto','correo');
 $botonMailto1.click();
 $form.reset();
 
