@@ -1,94 +1,161 @@
  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../../img/wallpaperbetter.com_2560x1440.jpg");*/
-.banner{
-  
-background: url(../../../img/banner.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-background-position:50% 100%;
+ .banner {
+
+     background: url(../../../img/banner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: 50% 100%;
 
 
 
-}
-.title__container{
-    color: var(--color-blanco);
-}
-.title__bio{
-    font-size: 32px;
-    white-space: pre-line;
-}
-.title__span{
-    color: var(--color-verdeAlien);
-}
-.title__subsection{
-    font-size: 18px;
-    white-space:pre-line;
-}
-.title__spanOracle{
-    color: var(--color-naranja9);
-}
+ }
 
-.title__div{
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
-.title__network{
-    display: flex;
-    padding-top: 2rem;
-}
-.title__network__item{
-    padding-right: 1rem;
-}
-.title__link:hover{
-    text-decoration: underline;
-}
-.title__profile{
+ .title__container {
+     color: var(--color-blanco);
+ }
 
- width: 250px;
- height: 250px;
-}
-/*tablet*/
-@media screen and (max-width:952px) {
+ .title__bio {
+     font-size: 32px;
+     white-space: pre-line;
+ }
 
-}
-/*movil*/
-@media screen and (max-width:858px) {
-.banner{
-background:none;
-background-color: black;
-}
-.title__div{
-flex-direction: column-reverse;
+ .title__span {
+     color: var(--color-verdeAlien);
+ }
 
-}
+ .title__subsection {
+     font-size: 18px;
+     white-space: pre-line;
+ }
 
-.title__bio{
-    font-size: 25px;
-    text-align: center;
-}
-.title__subsection{
-margin-top: 5px;
-padding: 0 10px 0 10px;
-text-align: center;
-white-space:normal;
-font-size: 16px;
-}
-.title__profile{
-    padding-top: 8px;
-    width: 150px;
-    height: 150px;
-    /*align-self: flex-start;*/
-    }
-.title__network{
-   justify-content: center;
-   padding-bottom: 10px;
-  
-}
+ .title__spanOracle {
+     color: var(--color-naranja9);
+ }
+
+ .title__div {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .title__network {
+     display: flex;
+     padding-top: 2rem;
+ }
+
+ .title__network__item {
+     padding-right: 1rem;
+ }
+
+ .title__link {
+     color: var(--color-blanco);
+ }
+
+ .title__link:hover {
+     text-decoration: underline;
+ }
+
+ .button__link {
+     display: inline-block;
+     border-radius: 7px;
+     border: none;
+     background: #1875FF;
+     color: white;
+     font-family: inherit;
+     text-align: center;
+     font-size: 13px;
+     -webkit-box-shadow: 0px 14px 56px -11px #1875FF;
+     box-shadow: 0px 14px 56px -11px #1875FF;
+
+     -webkit-transition: all 0.4s;
+     transition: all 0.4s;
+     cursor: pointer;
+     height: 20px;
+ }
+
+ .button__link span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     -webkit-transition: 0.4s;
+     transition: 0.4s;
+ }
+
+ .button__link span:after {
+     content: 'CV';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -15px;
+     -webkit-transition: 0.7s;
+     transition: 0.7s;
+ }
+
+ .button__link:hover span {
+     padding-right: 2em;
+ }
+
+ .button__link:hover span:after {
+     opacity: 4;
+     right: 0;
+ }
 
 
-}
-/* para scroll
+
+
+
+ .title__profile {
+
+     width: 250px;
+     height: 250px;
+ }
+
+ /*tablet*/
+ @media screen and (max-width:952px) {}
+
+ /*movil*/
+ @media screen and (max-width:858px) {
+     .banner {
+         background: none;
+         background-color: black;
+     }
+
+     .title__div {
+         flex-direction: column-reverse;
+
+     }
+
+     .title__bio {
+         font-size: 25px;
+         text-align: center;
+     }
+
+     .title__subsection {
+         margin-top: 5px;
+         padding: 0 10px 0 10px;
+         text-align: center;
+         white-space: normal;
+         font-size: 16px;
+     }
+
+     .title__profile {
+         padding-top: 8px;
+         width: 150px;
+         height: 150px;
+         /*align-self: flex-start;*/
+     }
+
+     .title__network {
+         justify-content: center;
+         padding-bottom: 10px;
+
+     }
+
+
+ }
+
+ /* para scroll
 @media screen and (max-width:858px) and (orientation:landscape) {
 
     .menu__lista {
