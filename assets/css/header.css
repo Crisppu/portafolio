@@ -3,6 +3,7 @@
 .cabecera__contenedor{
     background-color: var(--color-negro);
    width: 100vw;
+   height: 25vh;
 }
 /*
 body{

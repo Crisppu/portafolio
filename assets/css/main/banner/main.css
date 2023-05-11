@@ -86,7 +86,7 @@ align-items: center;
 
 .experience__section__title{
     text-align: center;
-    padding: 30px;
+    padding: 85px 30px 15px 30px;
     font-size: 20px;
     font-weight: bold;
     font-family: var(--font-family-body);

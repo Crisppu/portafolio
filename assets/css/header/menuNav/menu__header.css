@@ -41,7 +41,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: black;
 }
 
 .menu__cabecera {
